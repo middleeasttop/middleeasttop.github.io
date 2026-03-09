@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Middle East Cleaning - خدمات نظافة متكاملة للمنازل والشركات والمطاعم في مصر." />
-  <title>Middle East Cleaning | خدمات نظافة احترافية</title>
+  <title>Middle East Cleaning | الرئيسية</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-  <!-- Top Bar -->
   <div class="topbar">
     <div class="container topbar__inner">
       <div class="topbar__left">
@@ -27,12 +26,10 @@
     </div>
   </div>
 
-  <!-- Header -->
   <header class="header" id="top">
     <div class="container header__inner">
-      <a class="brand" href="#top" aria-label="Middle East Cleaning">
-        <div class="brand__logo" title="ضع اللوجو هنا">
-          <!-- استبدلها بصورة لوجو: <img src="assets/logo.png" alt="Middle East Cleaning"> -->
+      <a class="brand" href="index.html" aria-label="Middle East Cleaning">
+        <div class="brand__logo">
           <span class="brand__mark">M</span>
         </div>
         <div class="brand__text">
@@ -42,12 +39,10 @@
       </a>
 
       <nav class="nav" id="nav">
-        <a href="#about">من نحن</a>
-        <a href="#services">الخدمات</a>
-        <a href="#whyus">لماذا نحن</a>
-        <a href="#work">أعمالنا</a>
-        <a href="#reviews">آراء العملاء</a>
-        <a href="#faq">أسئلة شائعة</a>
+        <a href="index.html">الرئيسية</a>
+        <a href="services.html">الخدمات</a>
+        <a href="about.html">من نحن</a>
+        <a href="works.html">أعمالنا</a>
         <a href="#contact">تواصل</a>
       </nav>
 
@@ -61,17 +56,14 @@
     </div>
 
     <div class="mobileNav" id="mobileNav" aria-hidden="true">
-      <a href="#about">من نحن</a>
-      <a href="#services">الخدمات</a>
-      <a href="#whyus">لماذا نحن</a>
-      <a href="#work">أعمالنا</a>
-      <a href="#reviews">آراء العملاء</a>
-      <a href="#faq">أسئلة شائعة</a>
+      <a href="index.html">الرئيسية</a>
+      <a href="services.html">الخدمات</a>
+      <a href="about.html">من نحن</a>
+      <a href="works.html">أعمالنا</a>
       <a href="#contact">تواصل</a>
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__content">
@@ -87,8 +79,8 @@
         </p>
 
         <div class="hero__cta">
-          <a class="btn btn--lg" href="tel:+201023781330">احجز معاينة / اتصل الآن</a>
-          <a class="btn btn--ghost btn--lg" href="https://wa.me/201023781330" target="_blank" rel="noreferrer">تواصل واتساب</a>
+          <a class="btn btn--lg" href="services.html">شاهد خدماتنا</a>
+          <a class="btn btn--ghost btn--lg" href="about.html">اعرف أكثر عنا</a>
         </div>
 
         <div class="hero__highlights">
@@ -96,20 +88,8 @@
           <div class="pill">✅ فريق محترف</div>
           <div class="pill">✅ نتائج مضمونة</div>
         </div>
-
-        <div class="hero__mini">
-          <div class="miniCard">
-            <div class="miniCard__title">عروض للشركات</div>
-            <div class="miniCard__text">عقود شهرية بأسعار مميزة</div>
-          </div>
-          <div class="miniCard">
-            <div class="miniCard__title">خدمة طوارئ</div>
-            <div class="miniCard__text">حجز سريع حسب المتاح</div>
-          </div>
-        </div>
       </div>
 
-      <!-- Hero Visual (مثل midsharq: كارت معاينة مجانية) -->
       <div class="hero__visual">
         <div class="heroCard">
           <div class="heroCard__top">
@@ -127,175 +107,47 @@
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- About (من نحن) -->
-  <section class="section" id="about">
+  <section class="section section--alt">
     <div class="container">
       <div class="sectionHead">
-        <h2>من نحن</h2>
-        <p>شركة متخصصة في خدمات النظافة والتعقيم للمنازل والشركات والمطاعم داخل مصر.</p>
-      </div>
-
-      <div class="card">
-        <p>
-          نعتمد على فريق مدرّب ومعدات حديثة وخامات مناسبة لكل الأسطح، مع التزام كامل بالمواعيد
-          واهتمام بالتفاصيل للحصول على أفضل نتيجة.
-        </p>
-
-        <div class="serviceCard__actions" style="margin-top:12px;">
-          <a class="btn" href="#contact">اطلب معاينة مجانية</a>
-          <a class="btn btn--ghost" href="tel:+201023781330">اتصل الآن</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section class="section" id="services">
-    <div class="container">
-      <div class="sectionHead">
-        <h2>الخدمات</h2>
-        <p>اختر الخدمة اللي تحتاجها — وهنبعت لك عرض سعر سريع.</p>
-      </div>
-
-      <!-- ملاحظة: خلتها Services List (أقرب لتقسيم midsharq)
-           لو script.js عندك بيولد كروت، سيشتغل عادي.
-           لو تحب تحويله لقائمة نصية بالكامل، ابعتلي script.js. -->
-      <div class="grid" id="servicesGrid"></div>
-
-      <div class="center">
-        <a class="btn btn--lg" href="#contact">اطلب عرض سعر لكل الخدمات</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Why Us -->
-  <section class="section section--alt" id="whyus">
-    <div class="container">
-      <div class="sectionHead">
-        <h2>لماذا تختارنا؟</h2>
-        <p>نركز على الجودة، السلامة، والالتزام… وده اللي بيخلي الفرق واضح.</p>
+        <h2>أقسام الموقع</h2>
+        <p>دلوقتي الموقع بقى مرتب وكل قسم في صفحة مستقلة.</p>
       </div>
 
       <div class="whyGrid">
         <div class="card">
-          <div class="card__icon">⭐</div>
-          <h3>احترافية</h3>
-          <p>فريق مدرّب وخطوات عمل منظمة.</p>
+          <div class="card__icon">🧽</div>
+          <h3>الخدمات</h3>
+          <p>كل خدمات الشركة في صفحة واحدة مرتبة وواضحة.</p>
+          <a class="btn" href="services.html">فتح الصفحة</a>
         </div>
+
         <div class="card">
-          <div class="card__icon">🧪</div>
-          <h3>مواد آمنة</h3>
-          <p>خامات مناسبة للأسطح والمفروشات.</p>
+          <div class="card__icon">🏢</div>
+          <h3>من نحن</h3>
+          <p>تعريف واضح بالشركة ورسالتها وطريقة العمل.</p>
+          <a class="btn" href="about.html">فتح الصفحة</a>
         </div>
+
         <div class="card">
-          <div class="card__icon">⏱️</div>
-          <h3>التزام بالمواعيد</h3>
-          <p>حجز واضح وتنفيذ في الوقت.</p>
-        </div>
-        <div class="card">
-          <div class="card__icon">🧰</div>
-          <h3>معدات حديثة</h3>
-          <p>نتيجة أقوى في وقت أقل.</p>
-        </div>
-      </div>
-
-      <div class="ctaStrip">
-        <div class="ctaStrip__text">
-          <strong>🎁 خصومات للعقود الشهرية للشركات</strong>
-          <span class="muted">اطلب عرض سعر الآن</span>
-        </div>
-        <div class="ctaStrip__actions">
-          <a class="btn" href="tel:+201023781330">اتصل</a>
-          <a class="btn btn--ghost" href="https://wa.me/201023781330" target="_blank" rel="noreferrer">واتساب</a>
+          <div class="card__icon">🖼️</div>
+          <h3>أعمالنا</h3>
+          <p>عرض صور ونماذج من شغل الشركة.</p>
+          <a class="btn" href="works.html">فتح الصفحة</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Work / Gallery -->
-  <section class="section" id="work">
-    <div class="container">
-      <div class="sectionHead">
-        <h2>نماذج من أعمالنا</h2>
-        <p>بدّل الصور دي بصور شغلك الحقيقي (قبل/بعد لو متاح).</p>
-      </div>
-
-      <!-- استبدل أسماء الصور حسب ملفاتك داخل assets/ -->
-      <div class="gallery">
-        <div class="gallery__item"><img src="assets/work1.jpg" alt="عمل 1" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-        <div class="gallery__item"><img src="assets/work2.jpg" alt="عمل 2" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-        <div class="gallery__item"><img src="assets/work3.jpg" alt="عمل 3" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-        <div class="gallery__item"><img src="assets/work4.jpg" alt="عمل 4" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-        <div class="gallery__item"><img src="assets/work5.jpg" alt="عمل 5" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-        <div class="gallery__item"><img src="assets/work6.jpg" alt="عمل 6" style="width:100%;height:220px;object-fit:cover;border-radius:16px;display:block;"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Reviews -->
-  <section class="section section--alt" id="reviews">
-    <div class="container">
-      <div class="sectionHead">
-        <h2>آراء العملاء</h2>
-        <p>حط تقييمات حقيقية بعدين — ده بيزوّد الثقة جدًا.</p>
-      </div>
-
-      <div class="reviews">
-        <div class="review">
-          <div class="review__stars">★★★★★</div>
-          <p>“شغل محترم جدًا والتزام بالمواعيد.”</p>
-          <div class="review__name">عميل — القاهرة</div>
-        </div>
-        <div class="review">
-          <div class="review__stars">★★★★★</div>
-          <p>“تنضيف بعد التشطيب خلّى المكان جاهز للسكن.”</p>
-          <div class="review__name">عميل — الجيزة</div>
-        </div>
-        <div class="review">
-          <div class="review__stars">★★★★★</div>
-          <p>“تعقيم ممتاز وفريق محترف.”</p>
-          <div class="review__name">عميل — التجمع</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section" id="faq">
-    <div class="container">
-      <div class="sectionHead">
-        <h2>أسئلة شائعة</h2>
-        <p>إجابات مختصرة وواضحة للعملاء قبل ما يتصلوا.</p>
-      </div>
-
-      <div class="faq">
-        <details class="faq__item" open>
-          <summary>هل في معاينة قبل التنفيذ؟</summary>
-          <div class="faq__content">نعم، حسب نوع الخدمة. اتصل بنا لتحديد التفاصيل.</div>
-        </details>
-        <details class="faq__item">
-          <summary>هل المواد آمنة على الأطفال والحيوانات؟</summary>
-          <div class="faq__content">نستخدم مواد مناسبة حسب الحالة ونراعي السلامة قدر الإمكان.</div>
-        </details>
-        <details class="faq__item">
-          <summary>هل يوجد عقود للشركات؟</summary>
-          <div class="faq__content">نعم، عقود شهرية/ربع سنوية/سنوية بأسعار مميزة.</div>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
   <section class="section section--alt" id="contact">
     <div class="container">
       <div class="contact">
         <div class="contact__info">
           <h2>تواصل معنا</h2>
-          <p class="muted">اكتب بياناتك وهنرجعلك بسرعة، أو اتصل مباشرة.</p>
+          <p class="muted">اتصل مباشرة أو راسلنا على واتساب.</p>
 
           <div class="contact__cards">
             <a class="infoCard" href="tel:+201023781330">
@@ -313,10 +165,6 @@
                 <div class="infoCard__text">رسالة سريعة الآن</div>
               </div>
             </a>
-          </div>
-
-          <div class="muted small">
-            * ضع العنوان هنا إن رغبت (مثلاً: القاهرة / الجيزة).
           </div>
         </div>
 
@@ -338,19 +186,18 @@
 
           <div class="form__row">
             <label>ملاحظات</label>
-            <textarea name="notes" rows="4" placeholder="تفاصيل بسيطة (مساحة، مكان، موعد)"></textarea>
+            <textarea name="notes" rows="4" placeholder="تفاصيل بسيطة"></textarea>
           </div>
 
           <button class="btn btn--full btn--lg" type="submit">إرسال الطلب الآن</button>
           <div class="form__hint muted small">
-            بالإرسال، سيتم تجهيز رسالة واتساب تلقائيًا (بدون حفظ أي بيانات على الموقع).
+            بالإرسال، سيتم تجهيز رسالة واتساب تلقائيًا.
           </div>
         </form>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
@@ -362,9 +209,9 @@
       </div>
 
       <div class="footer__links">
-        <a href="#about">من نحن</a>
-        <a href="#services">الخدمات</a>
-        <a href="#contact">تواصل</a>
+        <a href="about.html">من نحن</a>
+        <a href="services.html">الخدمات</a>
+        <a href="works.html">أعمالنا</a>
       </div>
 
       <div class="footer__copy muted small">
@@ -373,14 +220,9 @@
     </div>
   </footer>
 
-  <!-- Floating CTA -->
   <div class="fab">
-    <a class="fab__btn fab__btn--wa" href="https://wa.me/201023781330" target="_blank" rel="noreferrer" aria-label="واتساب">
-      💬
-    </a>
-    <a class="fab__btn" href="tel:+201023781330" aria-label="اتصال">
-      📞
-    </a>
+    <a class="fab__btn fab__btn--wa" href="https://wa.me/201023781330" target="_blank" rel="noreferrer" aria-label="واتساب">💬</a>
+    <a class="fab__btn" href="tel:+201023781330" aria-label="اتصال">📞</a>
   </div>
 
   <script src="script.js"></script>
