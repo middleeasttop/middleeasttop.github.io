@@ -638,12 +638,24 @@ input:focus,select:focus,textarea:focus{
   height: 50px;
   width: auto;
   object-fit: contain;
-  display: block;
+  display: block;.fab__btn i{
+  font-size: 24px;
 }
-.fab__btn i{
-  font-size: 22px;
+
+/* واتساب */
+.fab__btn--wa{
+  background: #25D366;
+  color: #fff;
 }
+
+/* اتصال */
 .fab__btn--call{
-  background:#28a745;
+  background:#0F3D5E;
+  color:#fff;
+}
+
+/* إنستجرام */
+.fab__btn--ig{
+  background: radial-gradient(circle at 30% 30%, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   color:#fff;
 }
