@@ -57,18 +57,18 @@ img{max-width:100%}
 }
 .brand{display:flex;align-items:center;gap:10px}
 .brand__logo{
-  width:44px;
-  height:44px;
-  border-radius:14px;
-  background:linear-gradient(135deg,var(--navy),var(--teal));
-  display:grid;
-  place-items:center;
-  color:#fff;
-  font-weight:900;
-  box-shadow:var(--shadow);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:auto;
+  height:auto;
+  background:none;
+  border-radius:0;
+  box-shadow:none;
+  overflow:visible;
 }
 .brand__logo--sm{width:38px;height:38px;border-radius:14px}
-.brand__mark{font-size:18px}
+.brand__mark{display:none}
 .brand__name{font-weight:900;line-height:1.1;color:var(--navy)}
 .brand__sub{font-weight:700;line-height:1;color:rgba(15,61,94,.7)}
 
@@ -632,13 +632,6 @@ input:focus,select:focus,textarea:focus{
   border-radius:20px;
   border:4px solid #fff;
   box-shadow:0 10px 24px rgba(0,0,0,.10);
-}
-.brand__logo {
-  display: flex;
-  align-items: center;
-  background: none;
-  border-radius: 0;
-  overflow: visible;
 }
 
 .brand__logo img {
